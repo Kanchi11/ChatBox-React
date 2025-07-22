@@ -32,21 +32,20 @@ This project is a prototype environment to simulate real-time AI-like conversati
 ```
 git clone https://github.com/Kanchi11/ChatBox-React.git
 cd ChatBox-React
-2. Install Frontend Dependencies
+
+### 2. Install Frontend Dependencies
   npm install
-3. Start the Backend Server
-
-
-cd server
-node server.js
-This starts a local server that streams mock chat data at http://localhost:3001/api/stream.
+### 3. Start the Backend Server
+  cd server
+  node server.js
+  This starts a local server that streams mock chat data at http://localhost:3001/api/stream.
 
 4. Start the React App
 
-npm run dev
-Opens at http://localhost:3000.
+  npm run dev
+  Opens at http://localhost:3000.
 
-=
+
 Notes
 This project does not use a real AI model. All responses are streamed from pre-written data in the backend.
 
