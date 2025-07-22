@@ -28,8 +28,6 @@ This project is a prototype environment to simulate real-time AI-like conversati
 ## Setup Instructions
 
 ### 1. Clone the Repository
-
-```
 git clone https://github.com/Kanchi11/ChatBox-React.git
 cd ChatBox-React
 
@@ -40,13 +38,13 @@ cd ChatBox-React
   node server.js
   This starts a local server that streams mock chat data at http://localhost:3001/api/stream.
 
-4. Start the React App
+### 4. Start the React App
 
   npm run dev
   Opens at http://localhost:3000.
 
 
-Notes
+### Notes
 This project does not use a real AI model. All responses are streamed from pre-written data in the backend.
 
 Speech recognition is simulated using the browser’s SpeechRecognition (not server-side).
